@@ -23,7 +23,7 @@
 
 ## Goals:
 1. Get a list of 5 cat facts from public API
-3. Assuming mysql is installed at localhost:3306, save the list to the database and get it on next load
+3. Assuming mysql is installed at localhost:3306, save the list to the database and get it on next load i.e. when you hit up the route, if it doesn't have any data in the database, hit up the API, else fetch from the database
 4. Add the functionality to get a single record, update and delete saved record
 3. Write unit test and/or integrated test for all functionalities
 
@@ -33,7 +33,7 @@
 3. Create basic implementation of CRUD operations for predefined data
 4. Write test to cover server functionalities, especially API
 5. Do proper error handling to tackle network issues (4xx, 5xx errors)
-6. Zip the files (without node_modules) and email to dmb@swirge.com
+6. Upload the code to a repo and share the link
 
 ## Bonus Tips:
 1. Showcase your ability to write clean code
